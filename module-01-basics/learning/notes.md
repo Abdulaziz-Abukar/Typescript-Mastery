@@ -39,7 +39,7 @@ Those labels are called **types**, and they help you:
 2. Understand your own code months later.
 3. Give your editor super-powers (auto-complete, warnings, docs)
 
-In this module, you're learning the **simplest labels** you can put on variables, arryas, and objects.
+In this module, you're learning the **simplest labels** you can put on variables, arrays, and objects.
 
 ### 1) Primitive Types - "Whats in the box?"
 
@@ -106,7 +106,7 @@ let person: [string, number] = ["Goku", 9001];
 
 ### 3) Union Types - "This OR That"
 
-A union says variabels can be **one of several types**
+A union says variables can be **one of several types**
 
 ```ts
 let id: string | number;
@@ -115,7 +115,7 @@ id = "abc123";
 id = true;
 ```
 
-It's like telling TS: "i'll bring either a driver's license or a passport
+"It's like telling TS: "i'll bring either a driver's license or a passport"
 
 ### 4) Intersection Types - "This AND That"
 
@@ -142,8 +142,8 @@ Everything else in TypeScript builds on this:
 
 #### Quick Analogy
 
-- Primitives = individual Lego bricks.
-- Arrays = a pile of identical bricks.
-- Tuples = a small fixed Lego kit with exactly the right pieces
-- Union = Choose one of these sets of bricks
-- Intersection = Must have ALL these sets of bricks
+- **Primitives** = individual Lego bricks.
+- **Arrays** = a pile of identical bricks.
+- **Tuples** = a small fixed Lego kit with exactly the right pieces
+- **Union** = Choose one of these sets of bricks
+- **Intersection** = Must have ALL these sets of bricks

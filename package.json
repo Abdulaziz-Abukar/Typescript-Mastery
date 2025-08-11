@@ -5,7 +5,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch playground/hello.ts",
     "run": "tsx",
     "typecheck": "tsc --noEmit"
   },
@@ -13,8 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^22.5.5",
+    "@types/node": "^22.17.1",
+    "ts-node": "^10.9.2",
     "tsx": "^4.19.1",
-    "typescript": "^5.5.4"
+    "typescript": "^5.9.2"
   }
 }
